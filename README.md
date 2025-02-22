@@ -6,6 +6,7 @@ It fetches users from API, caches them locally using SharedPreferences,
 and provides functionality to clear cached users.   
 
 ## Project Structure:
+~~~
 lib/
 ├── core/
 │   ├── error/
@@ -27,7 +28,7 @@ lib/
 │           ├── pages/
 │           └── widgets/
 └── main.dart
-
+~~~
 ## Clean Architecture Layers Overview
 The project follows the Clean Architecture principles, where each Feature is separated into layers: 
  
